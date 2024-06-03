@@ -1,0 +1,6 @@
+/* @import 'open-props/normalize.min.css';
+@import 'open-props/open-props.min.css'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -5,13 +5,14 @@ import { FluentDemo } from '../../../components/fluent-demo/fluent-demo';
 export default createBoard({
     name: 'FluentDemo',
     Board: () => (
-        <FluentProvider theme={webDarkTheme}>
+        <FluentProvider theme={webLightTheme}>
             <FluentDemo />
         </FluentProvider>
     ),
     isSnippet: true,
+    readyToSnapshot: () => new Promise((resolve) => setTimeout(resolve, 4000)),
     environmentProps: {
         windowWidth: 1000,
-        windowHeight: 600,
+        windowHeight: 300,
     },
 });

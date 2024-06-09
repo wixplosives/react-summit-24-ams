@@ -1,11 +1,15 @@
+@import 'open-props/normalize.min.css';
+@import 'open-props/open-props.min.css'; 
+
 .card {
   align-items: center;
-  background: var(--gray-10);
   border-radius: var(--radius-conditional-2);
   box-shadow: var(--shadow-2);
   display: flex;
   gap: var(--size-4);
   padding: var(--size-4);
+  background: var(--gradient-17);
+  color: var(--gray-5);
 }
 
 .card date {
@@ -14,8 +18,9 @@
 
 .card img {
   aspect-ratio: var(--ratio-box);
-  border-radius: var(--radius-round);
+  border-radius: var(--radius-blob-3);
   width: var(--size-6);
+  background-color: var(--violet-5);
   color: red;
 }
 

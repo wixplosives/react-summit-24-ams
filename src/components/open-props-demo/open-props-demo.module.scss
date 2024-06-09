@@ -1,0 +1,27 @@
+.card {
+  align-items: center;
+  background: var(--gray-10);
+  border-radius: var(--radius-conditional-2);
+  box-shadow: var(--shadow-2);
+  display: flex;
+  gap: var(--size-4);
+  padding: var(--size-4);
+}
+
+.card date {
+  color: var(--text-2);
+}
+
+.card img {
+  aspect-ratio: var(--ratio-box);
+  border-radius: var(--radius-round);
+  width: var(--size-6);
+  color: red;
+}
+
+.guest {
+  align-items: center;
+  display: flex;
+  flex-shrink: 0;
+  gap: var(--size-2);
+}

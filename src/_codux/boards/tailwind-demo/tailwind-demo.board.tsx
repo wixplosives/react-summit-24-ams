@@ -1,5 +1,6 @@
 import { createBoard } from '@wixc3/react-board';
 import { TailwindDemo } from '../../../components/tailwind-demo/tailwind-demo';
+import '../../../index.css';
 
 export default createBoard({
     name: 'TailwindDemo',

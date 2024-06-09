@@ -1,4 +1,3 @@
-import classNames from 'classnames';
 import styles from './open-props-demo.module.scss';
 
 export interface OpenPropsDemoProps {

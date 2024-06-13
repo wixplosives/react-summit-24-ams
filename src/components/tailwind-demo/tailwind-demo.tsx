@@ -51,7 +51,7 @@ export const TailwindDemo = ({ className }: TailwindDemoProps) => {
                     </div>
                 </div>
             </div>
-            <div className="bg-slate-600 text-slate-200 rounded-b-xl flex items-center">
+            <div className="bg-slate-400 text-slate-200 rounded-b-xl flex items-center">
                 <div className="flex-auto flex items-center justify-evenly">
                     <button type="button" aria-label="Add to favorites">
                         <svg width="24" height="24">

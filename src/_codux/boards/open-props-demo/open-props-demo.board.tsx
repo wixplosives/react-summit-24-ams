@@ -5,7 +5,7 @@ import { OpenPropsDemo } from '../../../components/open-props-demo/open-props-de
 import UserSvg from './user.svg';
 
 export default createBoard({
-    name: 'OpenPropsDemo',
+    name: '1. OpenPropsDemo',
     Board: () => (
         <OpenPropsDemo
             guest={[
@@ -17,11 +17,11 @@ export default createBoard({
             title="Login"
         />
     ),
-    isSnippet: true,
     environmentProps: {
-        windowWidth: 735,
-        windowHeight: 300,
-        canvasWidth: 602,
+        windowWidth: 548,
+        windowHeight: 309,
+        canvasWidth: 350,
         canvasHeight: 68,
+        windowBackgroundColor: '#ffffff',
     },
 });

@@ -3,12 +3,7 @@ import { TailwindDemo } from '../../../components/tailwind-demo/tailwind-demo';
 import '../../../index.css';
 
 export default createBoard({
-    name: 'TailwindDemo',
+    name: '2. TailwindDemo',
     Board: () => <TailwindDemo />,
-    isSnippet: true,
-    environmentProps: {
-        canvasWidth: 567,
-        windowWidth: 928,
-        windowHeight: 594,
-    },
+    environmentProps: { windowWidth: 660, windowHeight: 358, canvasWidth: 550, canvasHeight: 327 },
 });

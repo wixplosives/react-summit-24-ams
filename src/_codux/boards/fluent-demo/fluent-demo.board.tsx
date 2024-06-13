@@ -3,16 +3,16 @@ import { FluentProvider, webLightTheme, webDarkTheme } from '@fluentui/react-com
 import { FluentDemo } from '../../../components/fluent-demo/fluent-demo';
 
 export default createBoard({
-    name: 'FluentDemo',
+    name: '3. FluentDemo',
     Board: () => (
         <FluentProvider theme={webLightTheme}>
             <FluentDemo />
         </FluentProvider>
     ),
-    isSnippet: true,
-    readyToSnapshot: () => new Promise((resolve) => setTimeout(resolve, 4000)),
     environmentProps: {
-        windowWidth: 1000,
         windowHeight: 300,
+        windowWidth: 880,
+        canvasWidth: 850,
+        canvasHeight: 37,
     },
 });

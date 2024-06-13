@@ -9,6 +9,7 @@ export default createBoard({
             <FluentDemo />
         </FluentProvider>
     ),
+    readyToSnapshot: () => new Promise((resolve) => setTimeout(resolve, 3000)),
     environmentProps: {
         windowHeight: 300,
         windowWidth: 880,
